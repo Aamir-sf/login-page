@@ -110,3 +110,8 @@ button{
 .register p a:hover{
     text-decoration: underline;
 }
+footer{
+    text-align: center;
+    background-color:#1b1f31;
+    color: white;
+}
