@@ -85,6 +85,10 @@ input:valid ~ label{
 .forget label a:hover{
     text-decoration: underline;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 button{
  width: 100%; 
  height: 40px;
