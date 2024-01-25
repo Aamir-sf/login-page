@@ -121,8 +121,21 @@ button{
 .register p a:hover{
     text-decoration: underline;
 }
-footer{
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    background:#121d31;
+}
+.social i{
+    color: white;
+    
+
+}
+.copyright{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    background-color:#1b1f31;
+    background-color:#121d31;
     color: white;
 }
