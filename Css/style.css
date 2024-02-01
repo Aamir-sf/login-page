@@ -4,13 +4,31 @@
     padding: 0;
     font-family: 'poppins' ,sans-serif;
 }
+/* .progress {
+    background-color: red;
+    height: 2px;
+    animation: load 1s ease-in-out 1;
+}
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 60vw;
+    }
+
+    100% {
+        width: 100vw;
+    }
+} */
 section{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: url('img/background.jpg')no-repeat;
+    background: url('img/background.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -33,7 +51,7 @@ h2{
 }
 .inputbox{
 position: relative;
-margin: 30px 0 ;
+margin: 30px 0;
 width: 310px;
 border-bottom: 2px solid white;
 }
@@ -85,8 +103,8 @@ input:valid ~ label{
 .forget label a:hover{
     text-decoration: underline;
 }
-button a{
-    width: 100%;
+.button input{
+     width: 100%;
     height: 100%;
     border-radius: 40px;
     text-decoration: none;
@@ -94,9 +112,10 @@ button a{
     font-weight: 600;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    border: none;
 }
-button{
+.button{
  width: 100%; 
  height: 40px;
  border-radius: 40px;  
@@ -106,6 +125,7 @@ button{
  cursor: pointer;
  font-size: 1em;
  font-weight: 600;
+
 }
 .register{
     font-size: .9em;
